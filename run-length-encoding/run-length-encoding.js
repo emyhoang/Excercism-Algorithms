@@ -8,8 +8,5 @@ export const encode = (str) => {
     match => (match.length > 1 ? match.length + match[0] : match[0]));
 };
 
-Make a change
-
-
 export const decode = (encodedText) => {
 };
