@@ -6,7 +6,7 @@ describe('ArmstrongNumber', () => {
     expect(validate(input)).toBe(true);
   });
 
-  xtest('There are no 2 digit Armstrong numbers', () => {
+  test('There are no 2 digit Armstrong numbers', () => {
     const input = 10;
     expect(validate(input)).toBe(false);
   });
