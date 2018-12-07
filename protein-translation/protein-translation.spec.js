@@ -41,7 +41,7 @@ describe('ProteinTranslation', () => {
     expect(translate('UAGAUGUAU')).toEqual([]);
   });
 
-  xtest('Sequence starts with stop codon 3', () => {
+  test('Sequence starts with stop codon 3', () => {
     expect(translate('UGAUGU')).toEqual([]);
   });
 
