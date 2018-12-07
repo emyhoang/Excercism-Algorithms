@@ -36,7 +36,7 @@ describe('ArmstrongNumber', () => {
     expect(validate(input)).toBe(true);
   });
 
-  xtest('Seven digit number that is not an Armstrong number', () => {
+  test('Seven digit number that is not an Armstrong number', () => {
     const input = 9926314;
     expect(validate(input)).toBe(false);
   });
