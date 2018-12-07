@@ -13,7 +13,7 @@ export const toRna = (string) => {
   let map = { G: 'C', C: 'G', T: 'A', A: 'U' }
   if (string == "") {
     return "";
-  }1
+  }
 
   let dnaToRna = characters.map(character => {
     if (map[character] == undefined) {
