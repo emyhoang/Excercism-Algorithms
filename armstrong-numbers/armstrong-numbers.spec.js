@@ -16,7 +16,7 @@ describe('ArmstrongNumber', () => {
     expect(validate(input)).toBe(true);
   });
 
-  xtest('Three digit number that is not an Armstrong number', () => {
+  test('Three digit number that is not an Armstrong number', () => {
     const input = 100;
     expect(validate(input)).toBe(false);
   });
