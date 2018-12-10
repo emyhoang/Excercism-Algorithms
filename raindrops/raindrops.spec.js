@@ -21,13 +21,13 @@ describe('Raindrops', () => {
 
   test('converts 15', () => expect(drops.convert(15)).toEqual('PlingPlang'));
 
-  xtest('converts 21', () => expect(drops.convert(21)).toEqual('PlingPlong'));
+  test('converts 21', () => expect(drops.convert(21)).toEqual('PlingPlong'));
 
-  xtest('converts 25', () => expect(drops.convert(25)).toEqual('Plang'));
+  test('converts 25', () => expect(drops.convert(25)).toEqual('Plang'));
 
-  xtest('converts 35', () => expect(drops.convert(35)).toEqual('PlangPlong'));
+  test('converts 35', () => expect(drops.convert(35)).toEqual('PlangPlong'));
 
-  xtest('converts 49', () => expect(drops.convert(49)).toEqual('Plong'));
+  test('converts 49', () => expect(drops.convert(49)).toEqual('Plong'));
 
   xtest('converts 52', () => expect(drops.convert(52)).toEqual('52'));
 
