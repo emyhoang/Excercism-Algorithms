@@ -26,7 +26,7 @@ describe('Transform', () => {
     expect(transform(old)).toEqual(expected);
   });
 
-  xtest('transforms a full dataset', () => {
+  test('transforms a full dataset', () => {
     const old = {
       1: ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T'],
       2: ['D', 'G'],
